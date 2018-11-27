@@ -1,0 +1,16 @@
+ Thu, 22 Nov 2018 10:40:36  INFO logger.py <module> [ line:28 ] 163邮箱web测试
+ Thu, 22 Nov 2018 10:40:36  INFO conftest.py init_loginEnv [ line:21 ] 用例前的准备工作
+ Thu, 22 Nov 2018 10:40:41  INFO base_page.py wait_elevisible [ line:23 ] 等待操作
+ Thu, 22 Nov 2018 10:40:42  INFO base_page.py switch_to_frame [ line:122 ] 切换到iframe
+ Thu, 22 Nov 2018 10:40:42  INFO base_page.py wait_elevisible [ line:23 ] 等待操作
+ Thu, 22 Nov 2018 10:40:42  INFO base_page.py get_element [ line:36 ] 查找元素
+ Thu, 22 Nov 2018 10:40:42  INFO base_page.py get_element [ line:36 ] 查找元素
+ Thu, 22 Nov 2018 10:40:42  INFO base_page.py get_element [ line:36 ] 查找元素
+ Thu, 22 Nov 2018 10:40:43  INFO base_page.py wait_elevisible [ line:23 ] 等待操作
+ Thu, 22 Nov 2018 10:40:45  ERROR test_login_pytest.py test_login_success [ line:27 ] 断言失败
+Traceback (most recent call last):
+  File "D:\TestScript\selenium_project1_163mail\TestCases\test_login_pytest.py", line 25, in test_login_success
+    assert HomePage(init_loginEnv[0]).get_nickname()==login_data.login_success["check"]
+AssertionError: assert '181****6390@163.com' == 'yuqing.zhao'
+  - 181****6390@163.com
+  + yuqing.zhao
